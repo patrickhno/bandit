@@ -1,0 +1,33 @@
+--------------------Configuration: Devices - Win32 Release--------------------
+Begining build with project "C:\develop\Kanal5\projects\Reality\Devices\Devices.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /G6 /MT /W2 /GX /Z7 /O2 /I "c:\develop\kanal5\projects\reality\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "DTISC" /Fp"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/Devices.pch" /YX /Fo"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/" /Fd"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/Devices.bsc" "
+			"Library Manager" with flags "/nologo /out:"c:\develop\lib\Devices.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP1A.tmp" with contents </nologo /G6 /MT /W2 /GX /Z7 /O2 /I "c:\develop\kanal5\projects\reality\\" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "DTISC" /Fp"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/Devices.pch" /YX /Fo"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/" /Fd"c:\develop\projects\Reality\Objects\i386-vc\Devices\Release/" /FD /c 
+"C:\develop\Kanal5\projects\Reality\Devices\Input\ivr.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP1A.tmp" 
+Creating temp file "C:\TEMP\RSP1B.tmp" with contents </nologo /out:"c:\develop\lib\Devices.lib" 
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\InputDevice.obj"
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\ivr.obj"
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\LineDevice.obj"
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\PhoneDevice_ISDN2Mb.obj"
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\Service.obj"
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\AudioDevice.obj"
+"\develop\projects\Reality\Objects\i386-vc\Devices\Release\Device.obj">
+Creating command line "link.exe -lib @C:\TEMP\RSP1B.tmp" 
+Compiling...
+ivr.cpp
+C:\develop\Kanal5\projects\Reality\Devices\Input\ivr.cpp(14) : error C2440: '=' : cannot convert from 'void *' to 'struct posix_FILE *'
+                                                                            Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+Error executing cl.exe.
+
+
+
+Banditt.dll - 1 error(s), 0 warning(s)
